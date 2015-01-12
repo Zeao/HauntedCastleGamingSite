@@ -9,29 +9,26 @@
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="javascripts/scale.fix.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+	<script src="jquery-1.11.2.js"></script>
+    <script> 
+    $(function(){
+      $("#includedContent").load("header.html"); 
+    });
+    </script>
   </head>
   <body>
+  
     <div class="wrapper">
-      <header>
-        <h1 class="header">Haunted Castle Gaming</h1>
-        <p class="header"></p>
-		<ul>
-         <a class="buttons" href="index.html">About Us</a>
-        </ul>
-      </header>
-	  
+	<div id="includedContent"></div>
+
       <section>
-        <h3><a id="warning" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sorry, no blogs yet.</h3>
-		<p></p>
+        <div align="center">
+			<h2><p>Oooops...</p></h2>
+			<p>Looks like you made a wrong turn along the way</p>
+			<p>Click <a href="http://hauntedcastlegaming.com/">here</a> to go back</p>
+		</div>
       </section>
-	  
-      <footer>
-		<p>Contact us: originsbcg@gmail.com
-		Last updated: Jan 5th, 2015</p>
-      </footer>
+
 	  
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
