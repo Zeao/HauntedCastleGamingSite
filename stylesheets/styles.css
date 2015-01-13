@@ -29,8 +29,11 @@ body {
 	color: #232323;
 	margin: 0;
 	line-height: 1.8em;
-	background-image: url("/images/clouds.jpg");
-	background-repeat: no-repeat;
+	background: url("/images/clouds.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	
 }
 
