@@ -29,6 +29,9 @@ body {
 	color: #232323;
 	margin: 0;
 	line-height: 1.8em;
+	background-image: url("/images/clouds.jpg");
+	background-repeat: no-repeat;
+	
 }
 
 h1, h2, h3, h4, h5, h6 {
