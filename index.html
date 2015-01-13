@@ -14,10 +14,14 @@
 	<script src="jquery-1.11.2.js"></script>
     <script> 
     $(function(){
-      $("#includedContent").load("header.html"); 
+      $("#includedContent").load("/header.html"); 
     });
     </script> 
-
+    <script> 
+    $(function(){
+      $("#includedBanner").load("/HC_Gaming/banner.html"); 
+    });
+    </script> 
 
 
     <!--[if lt IE 9]>
@@ -30,10 +34,7 @@
 
     <div class="wrapper">
 	<div id="includedContent"></div>
-	  
-	<banner>
-		<img src=".\images\Factions.bmp" alt="Factions">
-	</banner>
+	<div id="includedBanner"></div>
   
 
       <section>
