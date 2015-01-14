@@ -11,18 +11,23 @@
 	<script src="/jquery-1.11.2.js"></script>
     <script> 
     $(function(){
-      $("#includedContent").load("/header.html"); 
+		$("#includedContent").load("/header.html"); 
     });
 	$(function(){
-      $("#chapterAura").load("articles/aura.html"); 
+		$("#chapterAura").load("articles/aura.html"); 
     });
+    </script> 
+	<script> 
+		$(function(){
+			$("#includedBanner").load("banner.html"); 
+		});
     </script> 
   </head>
   <body>
   
     <div class="wrapper">
 	<div id="includedContent"></div>
-	
+	<div id="includedBanner"></div>	
      <section>
 	 	<h2>The Story</h2>
 		<p><div id="chapterAura"></div></p>
