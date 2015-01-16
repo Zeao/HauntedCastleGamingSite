@@ -92,7 +92,7 @@ p img {
 
 /* Wrapper */
 .wrapper {
-	width:960px;
+	width:100%;
 }
 
 
@@ -172,10 +172,9 @@ header ul.navbar a{
 /* Section - for main page content */
 
 section {
-	width:650px;
-	float:right;
-	padding-top: 125px;	
-	padding-bottom:50px;
+	width:900px;
+	float:left;
+	padding: 125px 50px 50px 20px;
 }
 
 /* Banner */
@@ -196,6 +195,7 @@ banner ul {
 	margin: inherit;
 	float: left;
 	list-style-type: none;
+	width: 230px;
 }
 
 
