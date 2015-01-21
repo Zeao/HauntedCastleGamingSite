@@ -46,4 +46,20 @@ body{
 		width: 160%;
 		padding: 0 20% 0 20%;
 	}
+	.mobile_hide{
+		visibility: show;
+	}
+	.mobile_show{
+		visibility: hidden;
+	}
+	
+}
+
+@media (max-width: 800px){
+	.mobile_hide{
+		visibility: hidden;
+	}
+	.mobile_show{
+		visibility: show;
+	}
 }
