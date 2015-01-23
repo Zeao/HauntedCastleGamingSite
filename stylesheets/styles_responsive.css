@@ -1,51 +1,75 @@
 body{
 	background: url("/images/clouds.jpg") no-repeat center center fixed; 
 }
+.banner{
+	width: 60%;
+	padding: 0 20% 0 20%;
+	max-width: 800px;
+}
+
 
 .content {
     min-height: 200px;
 }
+@media (min-width: 800px) {
+    .content {
+        display: table-cell;
+        width: 50%;
+		padding: 1%;
+    }
+}
+
 .imgbar {
     min-height: 200px;
 }
 .header {
 
 }
-.navbar {
-    min-height: 50px;
-	text-align: right;
-}
-.logo{
-	width: 60%;
-}
 @media (min-width: 800px) {
-	.tablerow{
-		display: table-row;
-	}
-	.wrapper {
-        height: 200px;
-        width: 100%;
-        display: table;
-    }
     .header{
         display: table-cell;
         width: 60%;
 		padding: 1%;
     }
+}
+
+.logo{
+	width: 80%;
+	padding: 0 10% 0 10%;
+}
+@media (min-width: 800px) {
+    .logo{
+		max-width: 400px;
+		padding: 0;
+    }
+}
+
+
+.navbar {
+    min-height: 50px;
+	text-align: right;
+}
+
+@media (min-width: 800px) {
     .navbar{
         display: table-cell;
         width: 40%;
 		padding: 1%;
     }
-    .content {
-        display: table-cell;
-        width: 50%;
-		padding: 1%;
+}
+
+
+@media (min-width: 800px) {
+	.wrapper {
+        height: 200px;
+        width: 100%;
+        display: table;
     }
-	.banner{
-		width: 160%;
-		padding: 0 20% 0 20%;
-	}
+}
+
+
+
+@media (min-width: 800px) {
 	.mobile_hide{
 		visibility: show;
 	}
