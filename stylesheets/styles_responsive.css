@@ -1,12 +1,14 @@
 body{
 	background: url("/images/clouds.jpg") no-repeat center center fixed; 
 }
+
 .banner{
 	width: 60%;
 	padding: 0 20% 0 20%;
 	max-width: 800px;
 	margin: 5px 0 5px 0;
 }
+
 .content {
     min-height: 200px;
 }
@@ -18,9 +20,7 @@ body{
     }
 }
 
-.imgbar {
-    min-height: 200px;
-}
+
 .header {
 
 }
@@ -44,31 +44,42 @@ body{
 }
 
 
+
 .navbar {
     min-height: 50px;
 	text-align: right;
 }
-
 @media (min-width: 800px) {
     .navbar{
         display: table-cell;
         width: 40%;
 		padding: 1%;
+		
+    }
+}
+@media (max-width: 800px) {
+    .navbar{
+		!--visibility: hidden;
     }
 }
 
-.navlist {
-    min-height: 200px;
+.navlist{
+
+
 }
 @media (min-width: 800px) {
-    .navlist {
-        display: table-cell;
-        width: 15%;
-		padding: 1%;
+    .navlist{
+        display: none;
+    }
+}
+@media (max-width: 800px) {
+    .navlist{
+		display: inline;
     }
 }
 
-
+wrapper {
+}
 @media (min-width: 800px) {
 	.wrapper {
         height: 200px;
@@ -88,8 +99,7 @@ body{
 	}
 	
 }
-
-@media (max-width: 800px){
+@media (max-width: 800px) {
 	.mobile_hide{
 		visibility: hidden;
 	}
