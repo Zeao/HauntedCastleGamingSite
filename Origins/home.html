@@ -5,46 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Haunted Castle Gaming</title>
 
-    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <link rel="stylesheet" href="/stylesheets/styles_responsive.css">
     <script src="/javascripts/scale.fix.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<script src="/jquery-1.11.2.js"></script>
-    <script> 
-    $(function(){
-		$("#includedContent").load("/header.html"); 
-    });
-	$(function(){
-		$("#chapterAura").load("articles/aura.html"); 
-    });
-    </script> 
-	<script> 
-		$(function(){
-			$("#includedBanner").load("banner.html"); 
-		});
-    </script> 
+	<link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
   </head>
   <body>
-  
-    <div class="wrapper">
-	<div id="includedContent"></div>
-	<div id="includedBanner"></div>	
-     <section>
-	 	<h2>The Story</h2>
-		<p><div id="chapterAura"></div></p>
-	</section>
-	  
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-		          <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-58154565-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
+	<div class="wrapper">
+		<div class="navbar">
+			<a href="/Origins/home.html">| Origins |</a>
+			<a href="/HC_Gaming/about_us.html">| Company |</a>
+			<a href="/HC_Gaming/appreciation.html">| Appreciation |</a>
+			<a href="/HC_Gaming/contact_us.html">| Contact Us |</a>
+		</div>
+		<div class="header">
+			<img class="logo" src="/images/HCGaming.jpg">  </img>
+		</div>
+	</div>
+	<div class="banner">
+			<h3>Origins</h3>
+			<p>Origins is a fantasy based trading card-board game. It combines the intrigue and individuality of a regular trading card game, along with the strategy and spacial-reasoning of a board game.</p>
+			<p>In Origins, you take on the persona of a powerful champion and battle you opponents to the death in the confines of a coliseum arena. You need to master the manipulation of Aura, and use your Energy to cast powerful spells, beckon epic summons and perform amazing techniques.</p>
+			<p>As you trade cards with your friends, you can make more powerful decks and prove your own strengths</p>
+			<p>Delve into the first world of Origins by reading the first chapter here: <a href="story/chapter1.html">Chapter 1: Aura</a></p>
+	</div>
+	<div class="banner">
+		<form method="get" action="RuleBook.pdf">
+			<h3>Rule Book</h3>
+			<p>Here is a copy of the most recent rule book. If you have any questions about the rule book, please feel free to e-mail us at Originsbcg@gmail.com</p>
+			<button  type="submit" onClick="_gaq.push(['_trackEvent', 'Document', 'View - Rule Book']);">View the Rule Book</button>
+		</form>
+	</div>
+	<div class="banner">
+		<form method="get" action="Beginnings.pdf">
+			<h3>Card List</h3>
+			<p>You can download the latest card list for the first set of Origins by clicking here: <i>last updated: Jan-22, 2015.</i> <button type="submit" onClick="_gaq.push(['_trackEvent', 'Document', 'View - Beginnings']);">Origins - Set 1 : Beginnings</button>
+			</p>
+		</form>
+	</div>
+	<div class="banner">
+		<form method="get" action="Onii-Deck.pdf">
+			<h3>Demo Deck</h3>
+			<p>Feel free to print off this Demo Deck, featuring the Oni Champion. <i>last updated: Jan-13, 2015.</i> <button type="submit" onClick="_gaq.push(['_trackEvent', 'Document', 'View - Oni Deck']);">Oni Starter Deck</button></p>
+		</form>
+	</div>	
 
+	<!--[if !IE]><script>fixScale(document);</script><![endif]-->
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-58154565-1");
+		pageTracker._trackPageview();
+		} catch(err) {}
+	</script>
   </body>
 </html>

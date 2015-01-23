@@ -5,9 +5,8 @@ body{
 	width: 60%;
 	padding: 0 20% 0 20%;
 	max-width: 800px;
+	margin: 5px 0 5px 0;
 }
-
-
 .content {
     min-height: 200px;
 }
@@ -54,6 +53,17 @@ body{
     .navbar{
         display: table-cell;
         width: 40%;
+		padding: 1%;
+    }
+}
+
+.navlist {
+    min-height: 200px;
+}
+@media (min-width: 800px) {
+    .navlist {
+        display: table-cell;
+        width: 15%;
 		padding: 1%;
     }
 }
