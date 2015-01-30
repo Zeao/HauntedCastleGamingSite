@@ -3,14 +3,13 @@ body{
 }
 
 .banner{
-	margin: 5px 0 5px 0;
+	margin: 55px 0 5px 0;
+	padding: 0 20% 0 20%;
 }
 @media (min-width: 800px) {
-.banner{
-	width: 60%;
-	padding: 0 20% 0 20%;
-	max-width: 800px;
-}
+	.banner{
+
+	}
 }
 .column {
 	text-align: center;
@@ -59,21 +58,16 @@ body{
 
 
 
-.navbar {
+.navbarCust{
     min-height: 50px;
 
 }
 @media (min-width: 800px) {
-    .navbar{
+    .navbarCust{
         display: table-cell;
         width: 40%;
 		padding: 1%;
 		text-align: right;
-    }
-}
-@media (max-width: 800px) {
-    .navbar{
-		!--visibility: hidden;
     }
 }
 
